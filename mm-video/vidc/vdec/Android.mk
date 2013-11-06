@@ -59,16 +59,16 @@ libmm-vdec-inc          += hardware/qcom/media/mm-core/inc
 libmm-vdec-inc          += $(TARGET_OUT_INTERMEDIATES)/KERNEL_OBJ/usr/include
 #DRM include - Interface which loads the DRM library
 libmm-vdec-inc	        += $(OMX_VIDEO_PATH)/DivxDrmDecrypt/inc
-libmm-vdec-inc          += hardware/qcom/display/libgralloc
+libmm-vdec-inc          += hardware/qcom/display-caf/libgralloc
 libmm-vdec-inc          += frameworks/native/include/media/openmax
 libmm-vdec-inc          += frameworks/native/include/media/hardware
 libmm-vdec-inc          += hardware/qcom/media/libc2dcolorconvert
-libmm-vdec-inc          += hardware/qcom/display/libcopybit
+libmm-vdec-inc          += hardware/qcom/display-caf/libcopybit
 libmm-vdec-inc          += frameworks/av/include/media/stagefright
-libmm-vdec-inc          += hardware/qcom/display/libqservice
+libmm-vdec-inc          += hardware/qcom/display-caf/libqservice
 libmm-vdec-inc          += frameworks/av/media/libmediaplayerservice
 libmm-vdec-inc          += frameworks/native/include/binder
-libmm-vdec-inc          += hardware/qcom/display/libqdutils
+libmm-vdec-inc          += hardware/qcom/display-caf/libqdutils
 
 
 LOCAL_MODULE                    := libOmxVdec
